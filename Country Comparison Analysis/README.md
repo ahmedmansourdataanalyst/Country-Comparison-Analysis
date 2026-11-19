@@ -17,15 +17,18 @@ charts, and geographic visuals.
 
 ## Dashboard Preview
 
-> Add your dashboard screenshots to the `images/` folder and update the
-> paths below.
+### 1. Country Development & Economic Performance
+<img width="1069" height="605" alt="Overview" src="https://github.com/user-attachments/assets/ff1e7a43-131f-4bd5-90fd-982df3ba1221" />
 
-  Dashboard Page                               Preview
-  -------------------------------------------- -----------------------------------
-  Country Development & Economic Performance   `images/overview.png`
-  Health Analysis                              `images/health-analysis.png`
-  Economic Performance                         `images/economic-performance.png`
-  Geographic Comparison                        `images/geographic-analysis.png`
+### 2. Health Analysis
+<img width="1069" height="605" alt="Health Analysis" src="https://github.com/user-attachments/assets/d83fc1c6-a0d5-48a0-b731-de3f3213ba40" />
+
+### 3. Economic Performance
+<img width="1070" height="608" alt="Economic Performance Analysis" src="https://github.com/user-attachments/assets/d1fcc25b-ed77-4e23-a2a9-f944b3fd40f9" />
+
+### 4. Geographic Analysis
+<img width="1068" height="608" alt="Map" src="https://github.com/user-attachments/assets/90927190-b5f6-4da4-823d-297561d9f369" />
+
 
 ## Key Dashboard Highlights
 
@@ -34,9 +37,6 @@ charts, and geographic visuals.
 -   **Average GDP:** approximately \$287.73 billion
 -   **Highest GDP country:** United States
 -   **Lowest inflation country:** Nauru
-
-*These figures reflect the values displayed in the project dashboard and
-depend on the dataset and its aggregation logic.*
 
 ## Analysis Areas
 
@@ -82,10 +82,6 @@ Expanding merged columns. - Adding conditional and custom columns. -
 Filtering rows and replacing values where required. - Reviewing column
 quality, distribution, and uniqueness.
 
-The main dataset contains 191 countries. Three missing values were
-identified in the inflation-rate field. The project documentation
-describes the visible cleaning workflow and its known limitations.
-
 ## DAX Measures
 
 The report uses DAX measures for aggregations and country rankings,
@@ -106,55 +102,42 @@ Ranking measures use `RANKX` with dense ranking. Aggregation measures
 use functions such as `AVERAGE` and `SUM`; ranking logic also uses
 functions such as `ALL`, `CALCULATE`, and `MAX`.
 
-Refer to the DAX documentation in the repository for the full formulas
-and explanations.
-
 ## Repository Structure
 
 ``` text
 Country-Comparison-Analysis/
 │
 ├── README.md
-├── Country Comparison Analysis.pbix
-├── Country Comparison Analysis.pdf
-├── Country comparison cleaned.xlsx
+│
+├── Country Comparison Analysis/
+│   ├── Country Comparison Analysis.pbix
+│   └── Country Comparison Analysis.pdf
 │
 ├── Documentation/
-│   ├── Business_Insights_Report.docx
-│   ├── DAX_Documentation.docx
-│   └── Data_Cleaning_Documentation.docx
+│   ├── Business_Insights_Report.pdf
+│   ├── DAX_Documentation.pdf
+│   └── Data_Cleaning_Documentation.pdf
 │
-└── images/
+└── Images/
     ├── overview.png
     ├── health-analysis.png
     ├── economic-performance.png
     └── geographic-analysis.png
 ```
 
-The `images/` folder is a suggested structure for dashboard screenshots.
-Add the images before expecting the preview table to render.
-
-## How to Explore the Project
-
-1.  Download or clone this repository.
-2.  Open `Country Comparison Analysis.pbix` using Power BI Desktop.
-3.  If Power BI prompts for a data source, update the source path to the
-    included Excel file (if you have permission to use the included data
-    file).
-4.  Refresh the data if required.
-5.  Navigate through the report pages and interact with the available
-    visuals and filters.
-
 ## Project Documentation
 
 The `Documentation/` folder contains:
 
 -   **Business Insights Report** -- summarizes the main dashboard
-    findings and analytical observations.
+    findings and analytical observations. [Business_Insights_Report.pdf](https://github.com/user-attachments/files/35089250/Business_Insights_Report.pdf)
+
 -   **DAX Documentation** -- lists the measures, formulas, and
-    explanations.
+    explanations. [DAX_Documentation.pdf](https://github.com/user-attachments/files/35089280/DAX_Documentation.pdf)
+
 -   **Data Cleaning Documentation** -- outlines the Power Query workflow
-    and data-quality checks.
+    and data-quality checks. [Data_Cleaning_Documentation.pdf](https://github.com/user-attachments/files/35089289/Data_Cleaning_Documentation.pdf)
+
 
 ## Notes & Limitations
 
@@ -175,8 +158,7 @@ The `Documentation/` folder contains:
 **Ahmed Mansour**\
 Data Analyst \| Power BI • SQL • Excel
 
--   [LinkedIn](https://www.linkedin.com/)
-    `<!-- Replace with your LinkedIn profile URL -->`{=html}
+-   [LinkedIn](www.linkedin.com/in/ahmed-mansour-955aa0197)
 -   [Portfolio](https://ahmedmansourdataanalyst.my.canva.site/ahmed-mansour)
 
 ------------------------------------------------------------------------
