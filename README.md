@@ -158,7 +158,7 @@ The `Documentation/` folder contains:
 **Ahmed Mansour**\
 Data Analyst \| Power BI • SQL • Excel
 
--   [LinkedIn](https://www.linkedin.com/)
+-   [LinkedIn](https://www.linkedin.com/in/ahmed-mansour-955aa0197)
 -   [Portfolio](https://ahmedmansourdataanalyst.my.canva.site/ahmed-mansour)
 
 ------------------------------------------------------------------------
